@@ -1,0 +1,23 @@
+{
+  "name": "instaclone",
+  "version": "1.0.0",
+  "description": "App simil insta",
+  "main": "index.js",
+  "author": "Geronimo Naum Lopez",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "aws-sdk": "^2.725.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.26",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
